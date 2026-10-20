@@ -1,2 +1,3 @@
 # PhotoCraft-Plugins
-A repository of Web Assembly (.wasm) plugins for PhotoCraft
+This is a repository of Web Assembly (.wasm) plugins that I made for PhotoCraft-
+Enjoy!
