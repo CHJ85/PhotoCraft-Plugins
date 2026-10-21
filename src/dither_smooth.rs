@@ -1,5 +1,3 @@
-//! Dither Smooth: the functional opposite of Posterize.
-//! Introduces controlled dither noise scaled to step size to break up quantization bands.
 #![cfg_attr(not(test), no_std)]
 
 #[cfg(all(not(test), target_arch = "wasm32"))]
@@ -9,7 +7,7 @@ fn panic(_: &core::panic::PanicInfo) -> ! {
 }
 
 const MANIFEST: &str = r#"{
-"id": "io.github.mitacore.dither_smooth",
+"id": "io.github.chj85.dither_smooth",
 "name": "Dither Smooth",
 "version": "1.0.0",
 "kind": "filter",
